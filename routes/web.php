@@ -17,3 +17,10 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Public/Home');
 });
+Route::get('/about', function () {
+    return Inertia::render('Public/About');
+});
+Route::get('/vilt-stack', function () {
+    return Inertia::render('Public/VILTStack');
+});
+
