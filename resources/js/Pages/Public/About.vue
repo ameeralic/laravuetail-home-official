@@ -50,7 +50,7 @@
     <div class="flex items-center space-x-4 mb-10">
         <img
             class="w-14 h-14 rounded-full"
-            src="/storage/images/ameer.jpg"
+            :src="$page.props.app_url + 'storage/images/ameer.jpg'"
             alt=""
         />
         <div class="font-medium text-gray-200 text-sm">

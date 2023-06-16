@@ -11,7 +11,7 @@
                 built with
                 <span class="font-bold">Laravel, Vuejs and TailwindCSS.</span>
             </p>
-            <div
+            <Link href="/projects"
                 class="font-ibm flex items-center gap-2 md:gap-3 text-tailwind md:text-gray-200 hover:text-vue cursor-pointer text-2xl md:text-4xl mb-4 md:mb-10 tracking-wider underline underline-offset-8"
             >
                 Projects
@@ -29,8 +29,9 @@
                         d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                     />
                 </svg>
-            </div>
-            <div
+            </Link>
+            <Link
+                href="/about"
                 class="font-ibm flex items-center gap-2 md:gap-3 text-tailwind md:text-gray-200 hover:text-vue cursor-pointer text-2xl md:text-4xl mb-4 md:mb-10 tracking-wider underline underline-offset-8"
             >
                 About
@@ -48,8 +49,9 @@
                         d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                     />
                 </svg>
-            </div>
-            <div
+            </Link>
+            <Link
+            href=""
                 class="font-ibm flex items-center gap-2 md:gap-3 text-tailwind md:text-gray-200 hover:text-vue cursor-pointer text-2xl md:text-4xl md:mb-5 tracking-wider underline underline-offset-8"
             >
                 Github
@@ -67,7 +69,7 @@
                         d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
                     />
                 </svg>
-            </div>
+            </Link>
         </div>
     </div>
 
@@ -81,7 +83,7 @@
         potential of these technologies effortlessly.
     </p>
 
-    <img src="/storage/images/meme.png" alt="" class="h-36 w-auto mb-2" />
+    <img :src="$page.props.app_url + 'storage/images/meme.png'" alt="" class="h-36 w-auto mb-2" />
     <p class="text-xs md:text-sm text-gray-300 italic mb-10">
         Consider its done!
     </p>
@@ -99,7 +101,7 @@
     <div class="flex items-center space-x-4 mb-10">
         <img
             class="w-14 h-14 rounded-full"
-            src="/storage/images/ameer.jpg"
+            :src="$page.props.app_url + 'storage/images/ameer.jpg'"
             alt=""
         />
         <div class="font-medium text-gray-200 text-sm">
