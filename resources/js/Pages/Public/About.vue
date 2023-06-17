@@ -45,13 +45,13 @@
         potential of these technologies effortlessly.
     </p>
     <p class="text-gray-300 text-sm tracking-tight mb-8 max-w-2xl font-light italic">
-        I owe a debt of gratitude to the Laravel, Vue.js, and Tailwind CSS
+        "I owe a debt of gratitude to the Laravel, Vue.js, and Tailwind CSS
         communities for their continuous support and inspiration. I encourage
         you to explore <span class="text-[#ff2d20]">Lara</span><span class="text-[#41b883]">Vue</span><span
             class="text-[#38bdf8]">Tail</span>, experiment with its
         applications, and immerse yourself in the possibilities it unlocks. Your
         feedback is invaluable to me as I strive to refine and expand the
-        library further.
+        library further."
     </p>
     <div class="flex items-center space-x-4 mb-10">
         <img class="w-14 h-14 rounded-full" :src="$page.props.app_url + 'storage/images/ameer.jpg'" alt="" />

@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class="min-h-screen ml-8 md:ml-40 xl:ml-64 px-4 max-w-4xl">
+    <div class="min-h-screen ml-8 md:ml-44 xl:ml-72 px-4 max-w-4xl">
         <slot></slot>
     </div>
     <Footer></Footer>

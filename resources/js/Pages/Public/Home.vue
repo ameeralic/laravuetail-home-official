@@ -2,12 +2,30 @@
     <div class="h-screen flex flex-col justify-end -mt-56 md:-mt-48" id="main">
         <div class="">
             <p class="text-gray-300 text-sm tracking-tight max-w-2xl mb-10">
-                <span class="text-[#ff2d20] text-5xl md:text-9xl font-medium tracking-tighter">Lara</span><span
-                    class="text-[#41b883] text-5xl md:text-9xl font-medium tracking-tighter">Vue</span><span
-                    class="text-[#38bdf8] text-5xl md:text-9xl font-medium tracking-tighter">Tail</span><br />
+                <span class="text-[#ff2d20] text-5xl md:text-8xl xl:text-9xl font-medium tracking-tighter">Lara</span><span
+                    class="text-[#41b883] text-5xl md:text-8xl xl:text-9xl font-medium tracking-tighter">Vue</span><span
+                    class="text-[#38bdf8] text-5xl md:text-8xl xl:text-9xl font-medium tracking-tighter">Tail</span><br />
                 An Open source (MIT License) library of web applications
-                built with
-                <span class="font-bold">Laravel, Vuejs and TailwindCSS.</span>
+                built with<br />
+                <span class="font-bold flex gap-3">
+                    <a href="https://laravel.com/" target="_blank">
+                        <span class="text-[#ff2d20] flex gap-1 items-center cursor-pointer hover:underline">
+                            <img src="https://asset.brandfetch.io/ide68-31CH/idhaVMa0Af.svg" alt="" class="h-4 w-auto" />
+                            Laravel
+                        </span>
+                    </a>
+                    <a href="https://vuejs.org/" target="_blank">
+                        <span class="text-[#41b883]  flex gap-1 items-center cursor-pointer hover:underline">
+                            <img src="https://asset.brandfetch.io/idT-7aLCAj/idYSAxBM8n.svg" alt=""
+                                class="h-3 w-auto" />Vue.js</span>
+                    </a>
+                    <a href="https://tailwindcss.com/" target="_blank">
+                        <span class="text-[#38bdf8] flex gap-1 items-center cursor-pointer hover:underline">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt=""
+                                class="h-4 w-auto" />Tailwind
+                            CSS</span>
+                    </a>
+                </span>
             </p>
             <Link href="#projects"
                 class="flex items-center gap-2 md:gap-3 text-tailwind md:text-gray-200 hover:text-vue cursor-pointer text-sm md:text-4xl mb-4 md:mb-10 tracking-normal underline underline-offset-8 hover:tracking-widest">
@@ -66,7 +84,8 @@
 
                 </a>
                 <div class="grid justify-items-start content-center w-1/2">
-                    <a href="http://lms.laravuetail.com" target="_blank" class="text-sm md:text-base font-medium text-vue">
+                    <a href="http://lms.laravuetail.com" target="_blank"
+                        class="text-sm md:text-base font-medium text-vue hover:text-tailwind">
                         LVTLearn</a>
                     <p class="text-xs md:text-sm font-light text-gray-100">Learning Management System (LMS)</p>
                     <p class="text-xs md:text-sm font-medium text-gray-100"><span class="text-vue">V</span><span
@@ -90,7 +109,7 @@
                 </a>
                 <div class="grid justify-items-start content-center w-1/2">
                     <a href="http://ecommerce.laravuetail.com" target="_blank"
-                        class="text-sm md:text-base font-medium text-vue">
+                        class="text-sm md:text-base font-medium text-vue hover:text-tailwind">
                         LVTShop</a>
                     <p class="text-xs md:text-sm font-light text-gray-100">E-commerce website with stripe payment</p>
                     <p class="text-xs md:text-sm font-medium text-gray-100"><span class="text-vue">V</span><span
@@ -112,7 +131,8 @@
 
                 </a>
                 <div class="grid justify-items-start content-center w-1/2">
-                    <a href="http://blog.laravuetail.com" target="_blank" class="text-sm md:text-base font-medium text-vue">
+                    <a href="http://blog.laravuetail.com" target="_blank"
+                        class="text-sm md:text-base font-medium text-vue hover:text-tailwind">
                         LVTBlog</a>
                     <p class="text-xs md:text-sm font-light text-gray-100">Blogging Web Application</p>
                     <p class="text-xs md:text-sm font-medium text-gray-100"><span class="text-vue">V</span><span
@@ -134,7 +154,8 @@
 
                 </a>
                 <div class="grid justify-items-start content-center w-1/2">
-                    <a href="http://cms.laravuetail.com" target="_blank" class="text-sm md:text-base font-medium text-vue">
+                    <a href="http://cms.laravuetail.com" target="_blank"
+                        class="text-sm md:text-base font-medium text-vue hover:text-tailwind">
                         LVTCMS Tools</a>
                     <p class="text-xs md:text-sm font-light text-gray-100">Usefull code snippets for creating CMS with
                         VILT
