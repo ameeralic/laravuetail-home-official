@@ -1,9 +1,15 @@
 <template>
+    <Link class="md:flex gap-2 items-center hidden md:my-10 cursor-pointer text-tailwind hover:text-gray-100" href="/#main">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-5 h-5 fill-tailwind text-zinc-900">
+        <path stroke-linecap="round" stroke-linejoin="round"
+            d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+    <p class="text-sm ">Back</p>
+    </Link>
     <p
-        class="text-2xl md:text-4xl font-bold tracking-widest text-gray-100 underline decoration-1 decoration-double underline-offset-8 mb-6"
-    >
-        <span class="text-vue">V</span><span class="text-[#5468ff]">I</span
-        ><span class="text-laravel">L</span>
+        class="text-2xl md:text-4xl font-bold tracking-widest text-gray-100 underline decoration-1 decoration-double underline-offset-8 my-10">
+        <span class="text-vue">V</span><span class="text-[#5468ff]">I</span><span class="text-laravel">L</span>
         <span class="text-tailwind">T</span>
         <span class="font-light">Stack</span>
     </p>
@@ -95,18 +101,13 @@
     </p>
 
     <div class="flex items-center space-x-4 mb-10">
-        <img
-            class="w-14 h-14 rounded-full"
-            :src="$page.props.app_url + 'storage/images/ameer.jpg'"
-            alt=""
-        />
+        <img class="w-14 h-14 rounded-full" :src="$page.props.app_url + 'storage/images/ameer.jpg'" alt="" />
         <div class="font-medium text-gray-200 text-sm">
             <div>C Ameerali</div>
             <p class="text-sm text-gray-300 font-light">
                 Full-Stack Developer, <br />Creator of
-                <span class="text-[#ff2d20]">Lara</span
-                ><span class="text-[#41b883]">Vue</span
-                ><span class="text-[#38bdf8]">Tail</span>
+                <span class="text-[#ff2d20]">Lara</span><span class="text-[#41b883]">Vue</span><span
+                    class="text-[#38bdf8]">Tail</span>
             </p>
         </div>
     </div>
