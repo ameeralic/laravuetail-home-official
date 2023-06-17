@@ -14,7 +14,7 @@
     <div class="md:w-40 xl:w-64 h-screen fixed top-0">
         <div class="flex justify-end h-full">
             <div>
-                <div class="flex justify-end h-full -mt-48">
+                <div class="flex justify-end h-full ml-1 -mt-48">
                     <div class="w-3 md:w-8 bg-laravel h-full flex flex-col justify-end pb-1 md:pb-4">
                         <p class="text-xs md:text-2xl text-white font-bold -rotate-90">
                             Lara
@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <div class="min-h-screen ml-8 md:ml-44 xl:ml-72 px-4 max-w-4xl">
+    <div class="min-h-screen ml-9 md:ml-44 xl:ml-72 px-4 max-w-4xl">
         <slot></slot>
     </div>
     <Footer></Footer>

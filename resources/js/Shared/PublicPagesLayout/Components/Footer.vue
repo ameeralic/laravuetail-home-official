@@ -14,8 +14,7 @@
                 <span class="hidden md:inline-block font-medium underline">Stack</span></Link>
             </div>
             <div>
-                <img :src="$page.props.app_url + 'storage/images/laravuetail-logo.png'" alt=""
-                    class="h-10 w-10 hidden xl:block">
+                <img :src="$page.props.app_url + 'storage/images/laravuetail-logo.png'" alt="" class="h-10 w-10">
                 <p class="text-sm text-gray-100 font-poppins">
                     2023 &#169; <span class="text-[#ff2d20]">Lara</span><span class="text-[#41b883]">Vue</span><span
                         class="text-[#38bdf8]">Tail</span>
