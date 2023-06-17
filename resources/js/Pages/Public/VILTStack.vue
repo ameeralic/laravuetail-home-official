@@ -109,7 +109,7 @@
                 <span class="text-[#ff2d20]">Lara</span><span class="text-[#41b883]">Vue</span><span
                     class="text-[#38bdf8]">Tail</span>
             </p>
-            <a href="https://ameer.website"
+            <a href="https://ameer.website" target="_blank"
                 class="text-xs text-gray-300 font-light flex gap-1 items-center hover:underline hover:text-vue"><svg
                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-3 h-3">
