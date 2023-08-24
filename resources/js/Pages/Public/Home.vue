@@ -77,6 +77,29 @@
         <div class="grid md:grid-cols-2 mb-10 place-content-center md:place-content-start w-fit gap-10 md:px-2"
             data-aos="zoom-in-up" data-aos-offset="200">
             <div class="flex gap-4 md:gap-10">
+                <a href="http://openai.laravuetail.com" target="_blank"
+                    class="grid place-content-center justify-items-center rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/openai-logo.svg'" alt="logo" />
+                    <p class="text-sm md:text-sm font-medium text-gray-100">LVTOpenAI</p>
+
+                </a>
+                <div class="grid justify-items-start content-center w-1/2">
+                    <a href="http://openai.laravuetail.com" target="_blank"
+                        class="text-sm md:text-base font-medium text-vue hover:text-tailwind">
+                        LVTOpenAI</a>
+                    <p class="text-xs md:text-sm font-light text-gray-100">An OpenAI sample project.
+                    </p>
+                    <p class="text-xs md:text-sm font-medium text-gray-100"><span class="text-vue">V</span><span
+                            class="text-[#5468ff]">I</span><span class="text-laravel">L</span>
+                        <span class="text-tailwind">T</span>
+                        <span class="ml-1">Stack</span>
+                    </p>
+                    <a href="http://openai.laravuetail.com" target="_blank"
+                        class="text-xs font-light text-gray-100 bg-vue rounded-full px-3 py-1 my-2 cursor-pointer hover:bg-tailwind shadow-vue hover:shadow-lg hover:shadow-tailwind">
+                        Learn more ></a>
+                </div>
+            </div>
+            <div class="flex gap-4 md:gap-10">
                 <a href="http://lms.laravuetail.com" target="_blank"
                     class="grid place-content-center justify-items-center rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
                     <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/lms-logo.svg'" alt="logo" />
@@ -166,6 +189,30 @@
                         <span class="ml-1">Stack</span>
                     </p>
                     <a href="http://cms.laravuetail.com" target="_blank"
+                        class="text-xs font-light text-gray-100 bg-vue rounded-full px-3 py-1 my-2 cursor-pointer hover:bg-tailwind shadow-vue hover:shadow-lg hover:shadow-tailwind">
+                        Learn more ></a>
+                </div>
+            </div>
+            <div class="flex gap-4 md:gap-10">
+                <a href="http://dashboard.laravuetail.com" target="_blank"
+                    class="grid place-content-center justify-items-center rounded-2xl w-32 h-32 border border-[#41b883]/10 hover:bg-black/50 hover:shadow-[#38bdf8] hover:border-[#38bdf8] hover:border-2 shadow-lg hover:shadow-xl shadow-[#41b883] bg-black/30">
+                    <img class="w-10 h-10 mr-2" :src="$page.props.app_url + 'storage/images/dashboard-logo.svg'"
+                        alt="logo" />
+                    <p class="text-sm md:text-sm font-medium text-gray-100">LVTDashboard</p>
+
+                </a>
+                <div class="grid justify-items-start content-center w-1/2">
+                    <a href="http://dashboard.laravuetail.com" target="_blank"
+                        class="text-sm md:text-base font-medium text-vue hover:text-tailwind">
+                        LVTDashboard</a>
+                    <p class="text-xs md:text-sm font-light text-gray-100">A general purpose dashboard project.
+                    </p>
+                    <p class="text-xs md:text-sm font-medium text-gray-100"><span class="text-vue">V</span><span
+                            class="text-[#5468ff]">I</span><span class="text-laravel">L</span>
+                        <span class="text-tailwind">T</span>
+                        <span class="ml-1">Stack</span>
+                    </p>
+                    <a href="http://dashboard.laravuetail.com" target="_blank"
                         class="text-xs font-light text-gray-100 bg-vue rounded-full px-3 py-1 my-2 cursor-pointer hover:bg-tailwind shadow-vue hover:shadow-lg hover:shadow-tailwind">
                         Learn more ></a>
                 </div>
