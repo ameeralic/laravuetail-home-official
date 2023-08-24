@@ -215,6 +215,7 @@
                     <a href="http://dashboard.laravuetail.com" target="_blank"
                         class="text-xs font-light text-gray-100 bg-vue rounded-full px-3 py-1 my-2 cursor-pointer hover:bg-tailwind shadow-vue hover:shadow-lg hover:shadow-tailwind">
                         Learn more ></a>
+
                 </div>
             </div>
         </div>
